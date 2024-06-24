@@ -13,13 +13,13 @@ const Toolbar: React.FC<ToolbarProps> = ({image, text}) => {
           <a className="navbar-brand" href="#">
             <img src={image} alt="Behoof" />
           </a>
-          <span className="navbar-item fs-6 ms-4">{text}</span>
+          <span className="navbar-item ms-2" style={{fontSize: '10px'}}>{text}</span>
         </div>
         <div className="navbar-nav">
           <div className="navbar-nav">
-            <a className="nav-link" href="#">Home</a>
-            <a className="nav-link" href="#">About us</a>
-            <a className="nav-link" href="#">Contacts</a>
+            <a className="nav-link" href="#">Главная страница</a>
+            <a className="nav-link" href="#">Каталог</a>
+            <a className="nav-link" href="#">О нас</a>
           </div>
         </div>
       </div>
