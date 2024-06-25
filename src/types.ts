@@ -3,3 +3,9 @@ export interface GoodItem {
   name: string;
   image: string;
 }
+
+export interface InfoItem {
+  id: number;
+  title: string;
+  text: string;
+}
